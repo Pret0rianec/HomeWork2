@@ -3,10 +3,9 @@
 void main() {
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
-    var frog = 3.5;
-    System.out.println ("frog = " + frog);
-    System.out.println ("frog*10 = " + frog * 10);
-    System.out.println ("frog*10/3.5 = " + frog * 10 / 3.5);
-    System.out.println ("frog*10/3.5+4 = 14.0");
-    // сорри))) не получилось записать формулой, потому что оно всё времы прибавляло к десятичным, т.е. получалось 10.4
+    var boxer1 = 78.2;
+    var boxer2 = 82.7;
+    System.out.println("two boxers kg = " + (boxer1 + boxer2));
+    System.out.println("difference kg = " + (boxer2 - boxer1));
+    // System.out.println("difference (#2) kg = " + (boxer2 %boxer1));
 }
