@@ -3,11 +3,8 @@
 void main() {
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
-    var dog = 8.0;
-    var cat = 3.6;
-    var paper = 763789;
-    System.out.println ("Уменьшение предыдущих значений");
-    System.out.println (dog + 4 - 3.5);
-    System.out.println (cat + 4 - 1.6);
-    System.out.println (paper + 4 - 7639);
+    var friend = 19;
+    System.out.println ("friend = " + friend);
+    System.out.println ("friend*2 = " + friend * 2);
+    System.out.println ("friend*2/7 = " + friend * 2 / 7);
 }
