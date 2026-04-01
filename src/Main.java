@@ -3,7 +3,7 @@
 void main() {
     //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
     // to see how IntelliJ IDEA suggests fixing it.
-    var boxer1 = 78.2;
-    var boxer2 = 82.7;
-    System.out.println("difference (#2) kg = " + (boxer2 %boxer1));
+    var allHours = 640;
+    var shiftEmployee = 8;
+    System.out.println("Всего работников в компании — " + (allHours/shiftEmployee) + " человек");
     }
