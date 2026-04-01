@@ -7,5 +7,4 @@ void main() {
     var boxer2 = 82.7;
     System.out.println("two boxers kg = " + (boxer1 + boxer2));
     System.out.println("difference kg = " + (boxer2 - boxer1));
-    // System.out.println("difference (#2) kg = " + (boxer2 %boxer1));
-}
+    }
